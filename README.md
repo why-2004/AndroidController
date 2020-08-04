@@ -26,22 +26,20 @@ Use as controller for your host device
 ### Support for many keys
 This is the full list of what keys are supported:
 ```
-!, ', #, $, %, &, ", (, ), *, +, ,, -, ., /,
+', ,, -, ., /,
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
-:, ;, <, =, >, ?, @, [, \, ], ^, _, `,
+;, =, [, \, ], _, `,
 a, b, c, d, e, f, g, h, i, j, k, l, m,
 n, o, p, q, r, s, t, u, v, w, x, y, z,
-{, |, }, ~, up, down, left, right,
-add, subtract, multiply, divide,
+up, down, left, right,
 home, end, insert, delete, pagedown, pageup, pgdn, pgup, 
-printscreen, prntscrn,
 fn, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10,
 f11, f12
 prtsc, prtscr, return, scrolllock, alt, backspace,
 capslock, ctrl, enter, esc, shift, space, tab,
 volumedown, volumemute, volumeup, win, m1, m2, m3
 ```
-probably not accurate anymore
+some key support has been dropped from python AndroidController. If you need those keys, use a macro to press Shift to type them.
 
 ### Hotkey support
 When entering keycodes, seperate them with a space.
@@ -56,6 +54,4 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 I would like to thank my friends for finding bugs and giving suggestions for my app. Thanks :)
-Contributors:
-ash12345678987654321 (GUI)
-why-2004 (bluetooth)
+
